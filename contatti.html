@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="it">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>GGDeals - Homepage</title>
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css" rel="stylesheet">
+  <link rel="stylesheet" href="css/generale.css">
+  <link rel="stylesheet" href="css/contatti.css">
+</head>
+<body>
+  <div class="navbar">
+    <div class="logo"><img src="img/Logobanner.png"></div>
+    <div class="navbar-destra">
+      <a href="./index.html"><i class="fas fa-home"></i></a>
+      <a href="./servizi.html"><i class="fas fa-info-circle"></i></a>
+      <a href="./contatti.html"><i class="fas fa-envelope"></i></a>
+    </div>
+  </div>
+
+  <div class="container">
+    <h1>Contatti</h1>  
+    <div class="contact-box">
+      <form action="submit_form.php" method="POST">
+        <label for="name">Nome</label>
+        <input type="text" id="name" name="name" required>
+
+        <label for="email">Email</label>
+        <input type="email" id="email" name="email" required>
+
+        <label for="message">Messaggio</label>
+        <textarea id="message" name="message" rows="3" required></textarea>
+
+        <button type="submit">Invia</button>
+      </form>
+    </div>
+
+    <div class="separator"></div>
+
+    <div class="contact-info">
+      <div>
+        <h3>Email</h3>
+        <p>raffaelerito08@gmail.com</p>
+      </div>
+      <div>
+        <h3>Telefono</h3>
+        <p>+39 376 210 1912</p>
+      </div>
+      <div>
+        <h3>Indirizzo</h3>
+        <p>Via Pigno 30, Marano</p>
+      </div>
+    </div>
+  </div>
+
+  <div class="footer">
+    <p>2025 GGDeals - Tutti i diritti riservati</p>
+  </div>
+</body>
+</html>
